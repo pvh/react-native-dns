@@ -12,7 +12,7 @@ import java.util.List;
 
 public class RNDNSPackage implements ReactPackage {
 
-    @Override
+    // removed @override for compatibility with modern react-native (+0.48)
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
